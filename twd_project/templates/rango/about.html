@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
+{% load staticfiles %}
+
 <head>
     <meta charset="UTF-8">
     <title>About</title>
@@ -7,10 +10,13 @@
 <body>
 <div>Hey there partner! <br />
 <strong>{{ boldmessage }}</strong><br />
+    <h1>This tutorial has been put together by Christian du Toit</h1>
 
 </div>
 <div>
     <a href="/rango/">Index</a><br />
+    <img src="{%  static "images/bango.jpg" %}" alt="Picture of Bango" /><br />
+    <img src="{{ MEDIA_URL }}cat.jpg"/>
 </div>
 </body>
 </html>
