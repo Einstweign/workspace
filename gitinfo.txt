@@ -1,0 +1,9 @@
+git remote add origin https://github.com/Einstweign/workspace.git
+git push -u origin master
+
+Einstweign@users.noreply.github.com
+
+
+  git config --global user.email "Einstweign@users.noreply.github.com"
+  git config --global user.name "Einstweign"
+
